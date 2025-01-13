@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+:root {
+    --my-text-col: black;
+    --my-light-btn: #FB982F;
+    --my-dark-btn: black;
+    --my-body: #c4b5a5;
+
+}
+
+body {
+    color: var(--my-text-col);
+    background-color: var(--my-body);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--my-text-col);
+
+}
+
+.Light-btn {
+    color: var(--my-text-col);
+    background-color: var(--my-light-btn);
+}
+
+.Dark-btn {
+    color: white;
+    background-color: var(--my-dark-btn);
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    transition: 0.2s;
+
+}
+
+button:active {
+    transform: scale(0.94);
+}
+
+ul>button {
+    border-radius: 6px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55.87px;
+    color: var(--my-text-col);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--my-text-col);
+}
+
+section>button {
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--my-text-col);
+    width: 160px;
+    height: 45px;
+}
+
+section {
+    width: 426px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+img {
+    width: 650px;
+    height: 400px;
+}
